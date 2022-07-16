@@ -58,6 +58,8 @@ public class Driver {
                         e.printStackTrace();
                     }
                     break;
+
+
                 case "chrome":
                     WebDriverManager.chromedriver().setup();
                     driver = new ChromeDriver();
